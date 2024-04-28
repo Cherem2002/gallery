@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom'; // Исправленный импорт
 import './gallary.css';
 
 
@@ -9,13 +10,19 @@ const Gallary = () => {
             <h1>Жанры</h1>
             <div className='Genres'>
                 <div className='Modern'>
-                    <button>Модернизм</button>
+                    <Link to="/gallary/modern">
+                        <button>Модернизм</button>
+                    </Link>
                 </div>
                 <div className='Impr'>
-                    <button>Импрессионизм</button>
+                    <Link to="/gallary/impr">
+                        <button>Импрессионизм</button>
+                    </Link>
                 </div>
                 <div className='Cl'>
-                    <button>Классицизм</button>
+                    <Link to="/gallary/cl">
+                        <button>Классицизм</button>
+                    </Link>
                 </div>
             </div>
         </div>

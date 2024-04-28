@@ -19,7 +19,8 @@
 }
 
 h1 {
-    margin-bottom: 20px; /* Добавим отступ снизу для надписи "Жанры" */
+    margin-bottom: 5px; /* Добавим отступ снизу для надписи "Жанры" */
+    font-size: 55px;
 }
 
 .Modern button{
@@ -28,13 +29,40 @@ h1 {
     font-size: 16px; /* Уменьшим размер текста кнопок */
     margin: 10px; /* Добавим отступ между кнопками */
     background-image: url("Modern.jpg");
+    font-size: 35px;
+    cursor: pointer;
+    transition-duration: 0.4s;
 }
+
+.Modern button:hover{
+    width: 350px;
+    height: 500px; /* Уменьшим высоту кнопок */
+    font-size: 16px; /* Уменьшим размер текста кнопок */
+    margin: 10px; /* Добавим отступ между кнопками */
+    background-image: url("Modern.jpg");
+    font-size: 35px;
+    color: white;
+}
+
 .Impr button {
     width: 350px;
     height: 500px; /* Уменьшим высоту кнопок */
     font-size: 16px; /* Уменьшим размер текста кнопок */
     margin: 10px; /* Добавим отступ между кнопками */
     background-image: url("Impr.jpg");
+    font-size: 35px;
+    cursor: pointer;
+    transition-duration: 0.4s;
+}
+
+.Impr button:hover {
+    width: 350px;
+    height: 500px; /* Уменьшим высоту кнопок */
+    font-size: 16px; /* Уменьшим размер текста кнопок */
+    margin: 10px; /* Добавим отступ между кнопками */
+    background-image: url("Impr.jpg");
+    font-size: 35px;
+    color: white;
 }
 
 .Cl button {
@@ -43,4 +71,17 @@ h1 {
     font-size: 16px; /* Уменьшим размер текста кнопок */
     margin: 10px; /* Добавим отступ между кнопками */
     background-image: url("cl.jpg");
+    font-size: 35px;
+    cursor: pointer;
+    transition-duration: 0.4s;
+}
+
+.Cl button:hover {
+    width: 350px;
+    height: 500px; /* Уменьшим высоту кнопок */
+    font-size: 16px; /* Уменьшим размер текста кнопок */
+    margin: 10px; /* Добавим отступ между кнопками */
+    background-image: url("cl.jpg");
+    font-size: 35px;
+    color: white;
 }

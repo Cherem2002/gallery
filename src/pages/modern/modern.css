@@ -1,0 +1,12 @@
+.Md{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+
+.swiper-image {
+    width: 100%; /* Устанавливаем ширину изображения на 100% */
+    height: auto; /* Автоматически рассчитываем высоту, чтобы сохранить пропорции */
+    /* Другие стили по вашему усмотрению */
+}
