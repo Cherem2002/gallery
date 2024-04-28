@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom'; // Исправленный импорт
 import './home.css';
 import d from './d.png';
 
@@ -8,7 +9,9 @@ const Home = () => {
         <div className="Home">
             <div className='Art'>
                 <h1>Галерея</h1>
-                <img src={d} alt='Вниз' />
+                <Link to="/gallary">
+                    <img src={d} alt='Вниз' />
+                </Link>
             </div>
         </div>
     );

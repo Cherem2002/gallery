@@ -1,0 +1,46 @@
+.Gallary {
+    background-color: white;
+    position: fixed;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+}
+
+.Genres {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-top: 20px; /* Добавим отступ сверху */
+}
+
+h1 {
+    margin-bottom: 20px; /* Добавим отступ снизу для надписи "Жанры" */
+}
+
+.Modern button{
+    width: 350px;
+    height: 500px; /* Уменьшим высоту кнопок */
+    font-size: 16px; /* Уменьшим размер текста кнопок */
+    margin: 10px; /* Добавим отступ между кнопками */
+    background-image: url("Modern.jpg");
+}
+.Impr button {
+    width: 350px;
+    height: 500px; /* Уменьшим высоту кнопок */
+    font-size: 16px; /* Уменьшим размер текста кнопок */
+    margin: 10px; /* Добавим отступ между кнопками */
+    background-image: url("Impr.jpg");
+}
+
+.Cl button {
+    width: 350px;
+    height: 500px; /* Уменьшим высоту кнопок */
+    font-size: 16px; /* Уменьшим размер текста кнопок */
+    margin: 10px; /* Добавим отступ между кнопками */
+    background-image: url("cl.jpg");
+}
