@@ -1,0 +1,36 @@
+.Home {
+    position: fixed;
+    display: flex;
+    flex-direction: column;
+    /* Устанавливаем направление контейнера на вертикальное */
+    justify-content: center;
+    /* Выравнивание по вертикали */
+    align-items: center;
+    /* Выравнивание по горизонтали */
+    height: 100vh;
+    /* Минимальная высота вьюпорта */
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-image: url("Gallery.jpg");
+    background-size: no-repeat;
+    background-size: auto;
+    font-size: 55px;
+}
+
+.Art {
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    align-items: center;
+}
+
+.Art img {
+    cursor: pointer;
+}
+
+.h1 {
+    font-size: 150px;
+}
