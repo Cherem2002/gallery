@@ -9,7 +9,7 @@ const Home = () => {
         <div className="Home">
             <div className='Art'>
                 <h1>Галерея</h1>
-                <Link to="/gallary">
+                <Link to="/gall">
                     <img src={d} alt='Вниз' />
                 </Link>
             </div>

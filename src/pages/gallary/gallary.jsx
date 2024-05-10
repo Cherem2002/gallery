@@ -10,17 +10,17 @@ const Gallary = () => {
             <h1>Жанры</h1>
             <div className='Genres'>
                 <div className='Modern'>
-                    <Link to="/gallary/modern">
+                    <Link to="/gall/modern">
                         <button>Модернизм</button>
                     </Link>
                 </div>
                 <div className='Impr'>
-                    <Link to="/gallary/impr">
+                    <Link to="/gall/impr">
                         <button>Импрессионизм</button>
                     </Link>
                 </div>
                 <div className='Cl'>
-                    <Link to="/gallary/cl">
+                    <Link to="/gall/cl">
                         <button>Классицизм</button>
                     </Link>
                 </div>
