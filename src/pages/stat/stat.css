@@ -1,0 +1,54 @@
+/* styles.css */
+.static {
+    position: fixed;
+    display: flex;
+    flex-direction: column;
+    /* Устанавливаем направление контейнера на вертикальное */
+    justify-content: top;
+    /* Выравнивание по вертикали */
+    align-items: center;
+    /* Выравнивание по горизонтали */
+    height: 100vh;
+    /* Минимальная высота вьюпорта */
+    top: 0;
+    left: 0;
+    right: 0;
+  }
+  
+  .static a {
+    text-decoration: none;
+    color: #007bff;
+  }
+  
+  .static a:hover {
+    text-decoration: underline;
+  }
+  
+  .static h2 {
+    margin-bottom: 10px;
+    font-size: 35px;
+  }
+  
+  .static table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  .static th, .stat td {
+    padding: 8px;
+    border-bottom: 1px solid #dee2e6;
+  }
+  
+  .static th {
+    background-color: #007bff;
+    color: white;
+  }
+  
+  .static th:first-child, .stat td:first-child {
+    text-align: left;
+  }
+  
+  .static tr:hover {
+    background-color: #f1f1f1;
+  }
+  

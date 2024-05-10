@@ -19,6 +19,20 @@
     font-size: 55px;
 }
 
+.stat {
+    position: absolute;
+    top: 10px;
+    /* Регулируйте вертикальное расположение по вашему желанию */
+    right: 10px;
+}
+
+.stat a {
+    text-decoration: none;
+    /* Убираем подчеркивание */
+    color: inherit;
+    /* Используем цвет текста по умолчанию */
+}
+
 .Art {
     top: 0;
     bottom: 0;

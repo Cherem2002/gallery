@@ -5,13 +5,24 @@ import './VisitorForm.css';
 function VisitorForm({ onClose }) {
   const [name, setName] = useState('');
   const [age, setAge] = useState('');
+  const [dateTime, setDateTime] = useState('');
+
 
   const handleSubmit = (event) => {
     event.preventDefault();
 
+    const currentDate = new Date().toLocaleDateString();
+    const currentTime = new Date().toLocaleTimeString();
+
+    const currentDateTime = `${currentDate} ${currentTime}`;
+
+    setDateTime(currentDateTime);
+
+
     const postData = {
       name: name,
       age: age,
+      dateTime: currentDateTime
     };
 
     fetch('https://cherem-gallery-default-rtdb.asia-southeast1.firebasedatabase.app/visitors.json', {

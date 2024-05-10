@@ -15,6 +15,11 @@ const Home = () => {
     return (
         <div className="Home">
             {isOpen && <VisitorForm onClose={handleClose} />}
+            <div className='stat'>
+                <p2>        
+                    <Link to="/stat">Статистика</Link>
+                </p2>
+            </div>
             <div className='Art'>
                 <h1>Галерея</h1>
                 <Link to="/gall">

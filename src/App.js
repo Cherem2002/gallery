@@ -5,6 +5,7 @@ import Gallery from './pages/gallary/gallary';
 import Modern from './pages/modern/modern';
 import Impr from './pages/impr/Impr';
 import Cl from './pages/cl/cl';
+import Stat from './pages/stat/stat';
 
 function App() {
   return (
@@ -16,6 +17,7 @@ function App() {
           <Route path="/gall/modern" element={<Modern />} />
           <Route path="/gall/impr" element={<Impr />} />
           <Route path="/gall/cl" element={<Cl />} />
+          <Route path="/stat" element={<Stat />} />
         </Routes>
       </div>
     </HashRouter>
