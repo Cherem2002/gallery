@@ -1,4 +1,4 @@
-import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+import { BrowserRouter as Router, Routes, Route, HashRouter  } from 'react-router-dom';
 import './App.css';
 import Home from './pages/home/home';
 import Gallery from './pages/gallary/gallary';
@@ -8,17 +8,17 @@ import Cl from './pages/cl/cl';
 
 function App() {
   return (
-    <Router basename={process.env.PUBLIC_URL}>
+    <HashRouter>
       <div className="App">
         <Routes>
           <Route path="/" element={<Home />} />
-          <Route path="/gallery" element={<Gallery />} />
-          <Route path="/gallery/modern" element={<Modern />} />
-          <Route path="/gallery/impr" element={<Impr />} />
-          <Route path="/gallery/cl" element={<Cl />} />
+          <Route path="/gall" element={<Gallery />} />
+          <Route path="/gall/modern" element={<Modern />} />
+          <Route path="/gall/impr" element={<Impr />} />
+          <Route path="/gall/cl" element={<Cl />} />
         </Routes>
       </div>
-    </Router>
+    </HashRouter>
   );
 }
 
