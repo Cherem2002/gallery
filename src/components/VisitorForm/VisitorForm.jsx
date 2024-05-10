@@ -5,7 +5,6 @@ import './VisitorForm.css';
 function VisitorForm({ onClose }) {
   const [name, setName] = useState('');
   const [age, setAge] = useState('');
-  const [visits, setVisits] = useState(0);
 
   useEffect(() => {
     // Получаем текущее значение счетчика посещений из базы данных Firebase
@@ -25,7 +24,6 @@ function VisitorForm({ onClose }) {
     const postData = {
       name: name,
       age: age,
-      visits: visits + 1 // Увеличиваем счетчик посещений на 1 при каждом посещении
     };
 
     fetch('https://cherem-gallery-default-rtdb.asia-southeast1.firebasedatabase.app/visitors.json', {
