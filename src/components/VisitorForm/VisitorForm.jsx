@@ -6,18 +6,6 @@ function VisitorForm({ onClose }) {
   const [name, setName] = useState('');
   const [age, setAge] = useState('');
 
-  useEffect(() => {
-    // Получаем текущее значение счетчика посещений из базы данных Firebase
-    fetch('https://cherem-gallery-default-rtdb.asia-southeast1.firebasedatabase.app/visits.json')
-      .then(response => response.json())
-      .then(data => {
-        if (data) {
-          setVisits(data);
-        }
-      })
-      .catch(error => console.error('Ошибка получения данных о посещениях:', error));
-  }, []);
-
   const handleSubmit = (event) => {
     event.preventDefault();
 
