@@ -47,7 +47,6 @@ function VisitorForm({ onClose }) {
     setName('');
     setAge('');
     // Увеличиваем счетчик посещений
-    setVisits(visits + 1);
     onClose();
   };
 
